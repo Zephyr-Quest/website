@@ -1,0 +1,12 @@
+Chartre graphique: 
+	titre :Berkshire Swash
+	description : Gloria Hallelujah
+	boutons : Aclonica
+
+couleur dominante: 
+	#f5b915(jaune sable)
+	#000000 (noir)
+
+Logo a trouver
+
+

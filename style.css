@@ -1,0 +1,46 @@
+body {
+  background-image: url("img/assassin's Creed Origins.webp");
+}
+
+#barre_haut {
+  text-align: center;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#titre {
+  text-align: center;
+}
+
+#titre h1 {
+  font-size: 3.5rem;
+  color: #f5b815;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+#titre h2 {
+  font-size: 1.5rem;
+  font-family: 'Berkshire Swash', cursive;
+}
+
+#bouton {
+  background-color: #f5b815;
+  text-align: center;
+  color: white;
+}
+
+#groupe {
+  color: grey;
+  text-align: right;
+  font-family: 'Berkshire Swash', cursive;
+}
+/*# sourceMappingURL=style.css.map */
