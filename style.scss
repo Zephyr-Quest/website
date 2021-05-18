@@ -1,42 +1,167 @@
+/*______________ELEMENT DE LA PAGE EN GENERAL_________*/
+
 body {
-    background-image: url("img/assassin\'s\ Creed\ Origins.webp");
+    background-image: url("img/assassin\'s\ Creed\ Origins\ blur.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
+
+/*Polices
+
+    font-family: 'Berkshire Swash', cursive;     //titre
+
+    font-family: 'Gloria Hallelujah', cursive;  //description
+    
+    font-family: 'Aclonica', sans-serif;        //textes
+
+*/
+
 #barre_haut {
+    padding: 1%;
     text-align: center;
-    color: black;
     display: flex;
     justify-content: space-around;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+#barre_haut aside {
+    padding: 2%;
 }
+
+#barre_haut a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Aclonica', sans-serif;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+    padding-top: 2%;
+    height: 4.5%;
+}
+
+#groupe p {
+    font-size: 0.7rem;
+    color: #858585;
+    text-align: right;
+    font-family: 'Aclonica', sans-serif;
+    //text-shadow: 1px 2px 3px black;
+}
+
+
+/*__________PAGE INDEX______________*/
 
 #titre {
     text-align: center;
 }
 
 #titre h1 {
-    font-size: 3.5rem;
+    font-size: 7.5rem;
     color: #f5b815;
     font-family: 'Berkshire Swash', cursive;
+    text-shadow: 1px 2px 3px black;
+    padding: 0%;
+    margin-bottom: 2%;
+    letter-spacing: 0.2rem;
 }
 
 #titre h2 {
     font-size: 1.5rem;
-    font-family: 'Berkshire Swash', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-bottom: 5%;
+    letter-spacing: 0.05rem;
 }
 
-#bouton {
-    background-color: #f5b815;
-    text-align: center;
+#bouton a {
+    font-size: 2.5rem;
     color: white;
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Aclonica', sans-serif;
+    //background-color: rgba(68, 66, 66, 0.2);
+    border: 5px solid #f5b815;
+    text-shadow: 1px 2px 3px black;
+    margin-left: 38%;
+    padding: 2% 8% 2%;
 }
 
-#groupe {
-    color: grey;
-    text-align: right;
+
+/*_______GESTIONNAIRE DE CONTACT_______________*/
+
+.contact h1 {
+    text-align: center;
+    font-size: 4.5rem;
+    color: #f5b815;
     font-family: 'Berkshire Swash', cursive;
+    text-shadow: 1px 2px 3px black;
+    padding-top: 0%;
+    margin-bottom: 1.5%;
+    letter-spacing: 0.2rem;
+}
+
+fieldset {
+    border-radius: 8px;
+    border: 1px solid #122430;
+    padding: 1.5%;
+    margin-right: 30%;
+    margin-left: 30%;
+}
+
+legend {
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 1.3rem;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.flexrow {
+    margin-bottom: 1%;
+    font-family: 'Aclonica', sans-serif;
+    padding-bottom: 2%;
+}
+
+.flexrow2 {
+    margin-bottom: 1%;
+    font-family: 'Aclonica', sans-serif;
+}
+
+input,
+textarea {
+    border: 2px solid #CCC;
+    border-radius: 5px;
+    font-family: 'Aclonica', sans-serif;
+}
+
+input[type="nom"],
+input[type="email"] {
+    min-width: 30%;
+    max-width: 50%;
+    padding: 8px;
+    display: block;
+}
+
+textarea[type="commentaire"] {
+    padding: 8px;
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.btn {
+    color: white;
+    text-decoration: none;
+    font-family: 'Aclonica', sans-serif;
+    text-shadow: 1px 2px 3px black;
+    border-radius: 8px;
+    padding: 2% 2%;
+    font-size: 1rem;
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    border: 5px solid #f5b815;
+    background-color: rgba(255, 255, 255, .0);
 }
