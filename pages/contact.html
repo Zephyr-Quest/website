@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zephyr-Quest</title>
+    <title>ZEPHYR QUEST</title>
     <meta name="description" content="Welcome in our one-line play">
     <meta name="author" content="Thomas RAFFRAY">
     <link rel="stylesheet" href="../style.css">
@@ -15,23 +15,40 @@
 
     <!--police-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Aclonica&family=Berkshire+Swash&family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:wght@300&display=swap" rel="stylesheet">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="../img/pyramides_logo_detouree.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/logo2-removebg-preview.png">
 </head>
 
 <body>
     <header>
         <!--barre du haut-->
-        <section id="barre_haut">
-            <article>
-                <a href="../index.html"><img src="../img/pyramides_detouree.png" height="100" alt="Logo"> </a>
-            </article>
+        <section class="barre_haut">
+            <section class="logo">
+                <a href="../index.html"><img src="../img/logo22.PNG.jpg" height="100" alt="Logo"> </a>
+            </section>
+            <section class="barre2">
 
-            <aside>
-                <a href="contact.html">Contact</a>
-            </aside>
+                <table>
+                    <tr>
+                        <td>
+                            <section class="bouton1">
+                                <a href="rules.html">RULES</a>
+                            </section>
+                        </td>
+                        <td>
+                            <section class="bouton1">
+                                <a href="contact.html ">CONTACT US</a>
+                            </section>
+                        </td>
+                        <td>
+                            <section class="bouton2">
+                                <a href="ZephyrQuest.html ">PLAY</a>
+                            </section>
+                        </td>
+                    </tr>
+                </table>
+            </section>
         </section>
     </header>
 
@@ -41,36 +58,37 @@
 
         <section class="contact">
 
-            <h1>Formulaire de Contact</h1>
+            <h1>CONTACT US</h1>
 
             <form action="index.php" method="post">
                 <fieldset>
-                    <legend>Envoyez nous votre message</legend>
+                    <legend>SEND US YOUR MESSAGE</legend>
 
                     <div class="flexrow">
-                        <label class="required" for="nom">Nom</label>
+                        <label class="required" for="nom">NAME</label>
                         <input type="nom" name="nom" id="nom" maxlength="40" value="" required>
                     </div>
 
                     <div class="flexrow">
-                        <label class="required" for="email">E-mail</label>
+                        <label class="required" for="email">EMAIL</label>
                         <input type="email" name="email" id="email" maxlength="100" value="" required>
                     </div>
                     <div class="flexrow2">
-                        <label class="required" for="commentaire">Commentaire</label>
-                        <textarea type="commentaire" name="commentaire" id="commentaire" minlength="5" maxlength="2000" value="" required></textarea>
+                        <label class="required" for="commentaire">YOUR MESSAGE</label>
+                        <textarea type="commentaire" name="commentaire" id="commentaire" minlength="5" rows="7" cols="40" value="" required></textarea>
                     </div>
                     <div>
-                        <button class="btn" type="submit" value="ajout">Envoyer mon message</button>
+                        <button class="btn" type="submit" value="ajout">SEND YOUR MESSAGE</button>
                     </div>
                 </fieldset>
             </form>
+        </section>
 
     </main>
 
     <footer>
-        <section id="groupe">
-            <p>Declemy Maxime || Delebecque Martin || Marquant Enguerrand || Mullier Tom ||Raffray Thomas || Van Boxem Rémi</p>
+        <section class="groupe">
+            <p>Declemy Maxime || Delebecque Martin || Marquant Enguerrand || Mullier Tom || Raffray Thomas || Van Boxem Rémi</p>
         </section>
     </footer>
 
