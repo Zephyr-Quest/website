@@ -30,6 +30,23 @@ body {
   margin-right: 0%;
 }
 
+.bouton a {
+  font-size: 1.5rem;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'Aclonica', sans-serif;
+  border: 4px solid #f5b815;
+  border-radius: 10px;
+  text-shadow: 1px 2px 3px black;
+  margin-left: 16%;
+  padding: 1% 7% 1%;
+}
+
+.bouton a:hover {
+  background-color: #f5b815;
+}
+
 @media screen and (max-width: 1024px) {
   td {
     display: block;
@@ -55,7 +72,7 @@ body {
   }
   footer {
     position: relative;
-    padding-bottom: 10%;
+    padding-bottom: 0%;
   }
   .groupe p {
     text-align: center;
@@ -75,9 +92,8 @@ footer {
   position: fixed;
   bottom: 0;
   width: 99%;
-  padding-top: 20%;
   padding-bottom: 0%;
-  height: 4.5%;
+  height: auto;
 }
 
 table {
@@ -144,6 +160,12 @@ td {
   text-align: right;
   font-family: 'KoHo', sans-serif;
   padding-bottom: 0%;
+  /*text-shadow: 1px 2px 3px black;*/
+}
+
+.groupe a {
+  text-decoration: none;
+  color: #858585;
 }
 
 .titre {
@@ -166,23 +188,6 @@ td {
   font-family: 'KoHo', sans-serif;
   margin-bottom: 5%;
   letter-spacing: 0.15rem;
-}
-
-.bouton a {
-  font-size: 1.5rem;
-  color: white;
-  text-decoration: none;
-  text-align: center;
-  font-family: 'Aclonica', sans-serif;
-  border: 4px solid #f5b815;
-  border-radius: 10px;
-  text-shadow: 1px 2px 3px black;
-  margin-left: 16%;
-  padding: 1% 7% 1%;
-}
-
-.bouton a:hover {
-  background-color: #f5b815;
 }
 
 /*_______GESTIONNAIRE DE CONTACT_______________*/
@@ -285,5 +290,49 @@ button {
   font-family: 'KoHo', sans-serif;
   margin-bottom: 5%;
   letter-spacing: 0.15rem;
+}
+
+/*________________DONEES PERSONNELLES_____________*/
+.donnees {
+  text-align: left;
+  margin-top: 5%;
+  margin-left: 10%;
+  background-image: none;
+}
+
+.donnees h1 {
+  font-size: 2.5rem;
+  text-shadow: 1px 2px 3px black;
+  font-family: 'KoHo', sans-serif;
+  padding: 0%;
+  margin-bottom: 2%;
+  letter-spacing: 0.15rem;
+}
+
+.donnees h2 {
+  font-size: 1.2rem;
+  font-family: 'KoHo', sans-serif;
+  margin-top: 3%;
+  margin-bottom: 2%;
+  letter-spacing: 0.15rem;
+}
+
+.donnees p {
+  margin-right: 5%;
+  font-family: 'KoHo', sans-serif;
+  text-align: justify;
+}
+
+.donnees br {
+  line-height: 1.8rem;
+}
+
+.donnees li {
+  line-height: 1.8rem;
+  font-family: 'KoHo', sans-serif;
+}
+
+.donnees strong {
+  font-weight: 900;
 }
 /*# sourceMappingURL=style.css.map */

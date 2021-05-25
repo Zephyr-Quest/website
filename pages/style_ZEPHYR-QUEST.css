@@ -110,6 +110,13 @@ td {
     color: #858585;
     text-align: right;
     font-family: 'KoHo', sans-serif;
+    padding-bottom: 0%;
+    /*text-shadow: 1px 2px 3px black;*/
+}
+
+.groupe a {
+    text-decoration: none;
+    color: #858585;
 }
 
 .titre {
